@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Global */
+body {}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+p {
+    margin: 15px 0;
+}
+
+.container {
+    width: 960px;
+    padding: 30px;
+    background-color: #eee;
+    margin: auto;
+
+}
+
+
+
+/* Header */
+
+header {}
+
+
+/* Block-1 */
+
+main>div:first-child {
+    border-top: 1px solid gray;
+}
+
+main>div {
+    border-bottom: 1px solid gray;
+}
+
+.block-1 p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+p span.html-text {
+    border-bottom: 1px dashed black;
+}
+
+p span.tag {
+    background-color: rgb(250, 203, 203);
+    color: darkred;
+}
+
+/* Block-2 */
+
+
+.block-2 p{
+    font-size: 16px;
+    font-weight: 300;
+}
+.block-2 pre.code{
+    font-family: c;
+}
+.code>span{
+    color: darkred;
+}
+
+
